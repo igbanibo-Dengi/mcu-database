@@ -7,7 +7,7 @@ const MovieDetails = () => {
   const [movielink] = useState(() => moviesdata.find((m) => m.title === title));
 
   if (!movielink) {
-    return <div>Movie not found</div>;
+    return <div className="text-white">Movie not found</div>;
   }
 
   const { release_date, overview, cover_url } = movielink;
