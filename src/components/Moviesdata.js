@@ -9,6 +9,7 @@ export const moviesdata = [
       "It is 1942, America has entered World War II, and sickly but determined Steve Rogers is frustrated at being rejected yet again for military service. Everything changes when Dr. Erskine recruits him for the secret Project Rebirth. Proving his extraordinary courage, wits and conscience, Rogers undergoes the experiment and his weak body is suddenly enhanced into the maximum human potential. When Dr. Erskine is then immediately assassinated by an agent of Nazi Germany's secret HYDRA research department (headed by Johann Schmidt, a.k.a. the Red Skull), Rogers is left as a unique man who is initially misused as a propaganda mascot; however, when his comrades need him, Rogers goes on a successful adventure that truly makes him Captain America, and his war against Schmidt begins.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935658/mcu/movies/Captain_America_The_First_Avenger_uloz93.jpg",
+    trailer_url: "https://www.youtube.com/embed/JerVrbLldXw",
     directed_by: "Joe Johnston",
     phase: 1,
     saga: "Infinity Saga",
@@ -26,6 +27,7 @@ export const moviesdata = [
       "After crashing an experimental aircraft, Air Force pilot Carol Danvers is discovered by the Kree and trained as a member of the elite Starforce Military under the command of her mentor Yon-Rogg. Six years later, after escaping to Earth while under attack by the Skrulls, Danvers begins to discover there's more to her past. With help from S.H.I.E.L.D. agent Nick Fury, they set out to unravel the truth.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935658/mcu/movies/Captain_Marvel_2019_uanqso.jpg",
+    trailer_url: "https://www.youtube.com/embed/Z1BCujX3pw8",
     directed_by: "Anna Boden, Ryan Fleck",
     phase: 3,
     saga: "Infinity Saga",
@@ -43,7 +45,7 @@ export const moviesdata = [
       "Tony Stark. Genius, billionaire, playboy, philanthropist. Son of legendary inventor and weapons contractor Howard Stark. When Tony Stark is assigned to give a weapons presentation to an Iraqi unit led by Lt. Col. James Rhodes, he's given a ride on enemy lines. That ride ends badly when Stark's Humvee that he's riding in is attacked by enemy combatants. He survives - barely - with a chest full of shrapnel and a car battery attached to his heart. In order to survive, he comes up with a way to miniaturize the battery and figures out that the battery can power something else. Thus, Iron Man is born. He uses the primitive device to escape from the cave in Iraq. Once back home, he then begins work on perfecting the Iron Man suit. But the man who was put in charge of Stark Industries has plans of his own to take over Tony's technology for other matters.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935659/mcu/movies/Iron_Man_2008_vipwmp.jpg",
-    trailer_url: "https://example.com/iron-man-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/8ugaeA-nMTc",
     directed_by: "Jon Favreau",
     phase: 1,
     saga: "Infinity Saga",
@@ -61,7 +63,7 @@ export const moviesdata = [
       "With the world now aware of his dual life as the armored superhero Iron Man, billionaire inventor Tony Stark faces pressure from the government, the press, and the public to share his technology with the military. Unwilling to let go of his invention, Stark, along with Pepper Potts and James 'Rhodey' Rhodes at his side, must forge new alliances and confront powerful enemies.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935659/mcu/movies/Iron_Man_2_yo2ibn.jpg",
-    trailer_url: "https://example.com/iron-man-2-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/BoohRoVA9WQ",
     directed_by: "Jon Favreau",
     phase: 1,
     saga: "Infinity Saga",
@@ -79,7 +81,7 @@ export const moviesdata = [
       "Depicting the events after the Gamma Bomb, 'The Incredible Hulk' tells the story of Dr. Bruce Banner, who seeks a cure for his unique condition, which causes him to turn into a giant green monster under emotional stress. While on the run from the military, which seeks his capture, Banner comes close to finding a cure. But all is lost when a new creature emerges: The Abomination.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935660/mcu/movies/The_Incredible_Hulk_2008_rjhhaw.jpg",
-    trailer_url: "https://example.com/the-incredible-hulk-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/xbqNb2PFKKA",
     directed_by: "Louis Leterrier",
     phase: 1,
     saga: "Infinity Saga",
@@ -97,7 +99,7 @@ export const moviesdata = [
       "The warrior Thor (Chris Hemsworth) is cast out of the fantastic realm of Asgard by his father Odin (Sir Anthony Hopkins) for his arrogance and sent to Earth to live amongst humans. Falling in love with scientist Jane Foster (Natalie Portman) teaches Thor much-needed lessons, and his newfound strength comes into play as a villain from his homeland sends dark forces toward Earth.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935660/mcu/movies/Thor_qia7uu.jpg",
-    trailer_url: "https://example.com/thor-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/JOddp-nlNvQ",
     directed_by: "Kenneth Branagh",
     phase: 1,
     saga: "Infinity Saga",
@@ -115,6 +117,7 @@ export const moviesdata = [
       "Loki, the adopted brother of Thor, teams up with the Chitauri Army and uses the Tesseract's power to travel from Asgard to Midgard to plot the invasion of Earth and become a king. The director of the agency S.H.I.E.L.D., Nick Fury, sets in motion Project Avengers, joining Tony Stark a.k.a. Iron Man, Steve Rogers a.k.a. Captain America, Bruce Banner a.k.a. The Hulk, Thor, Natasha Romanoff a.k.a. Black Widow, and Clint Barton a.k.a. Hawkeye, to save the world from the powerful Loki and the alien invasion.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935660/mcu/movies/The_Avengers_xvoykc.jpg",
+    trailer_url: "https://www.youtube.com/embed/eOrNdBpGMv8",
     directed_by: "Joss Whedon",
     phase: 1,
     saga: "Infinity Saga",
@@ -132,7 +135,7 @@ export const moviesdata = [
       "Marvel's 'Iron Man 3' pits brash-but-brilliant industrialist Tony Stark/Iron Man against an enemy whose reach knows no bounds. When Stark finds his personal world destroyed at his enemy's hands, he embarks on a harrowing quest to find those responsible. This journey, at every turn, will test his mettle. With his back against the wall, Stark is left to survive by his own devices, relying on his ingenuity and instincts to protect those closest to him. As he fights his way back, Stark discovers the answer to the question that has secretly haunted him: does the man make the suit or does the suit make the man?",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935659/mcu/movies/Iron_Man_3_y4dvco.jpg",
-    trailer_url: "https://example.com/iron-man-3-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/Ke1Y3P9D0Bc",
     directed_by: "Shane Black",
     phase: 2,
     saga: "Infinity Saga",
@@ -150,7 +153,7 @@ export const moviesdata = [
       "Thousands of years ago, a race of beings known as Dark Elves tried to send the universe into darkness by using a weapon known as the Aether. Warriors from Asgard stopped them, but their leader Malekith (Christopher Eccleston) escaped to wait for another opportunity. The warriors find the Aether, and since it cannot be destroyed, they try to hide it. In the present day, Jane Foster (Natalie Portman) awaits the return of Thor (Chris Hemsworth), although it has been two years since they last saw one another. In the meantime, Thor has been trying to bring peace to the nine realms. Jane discovers an anomaly similar to the one that brought Thor to Earth. She goes to investigate, finds a wormhole, and is sucked into it. Back on Asgard, Thor wishes to return to Earth, but his father Odin (Sir Anthony Hopkins) refuses to let him. Thor learns from Heimdall (Idris Elba), who can see into all of the realms, that Jane disappeared. Thor then returns to Earth just as Jane reappears. However, when some Policemen try to arrest her, an unknown energy repulses them. Thor then brings Jane to Asgard to find out what happened to her. When the energy is released again, they discover that when Jane disappeared, she crossed paths with the Aether and it entered her. Malekith, upon sensing that the time to strike is now, seeks out the Aether. He attacks Asgard, and Thor's mother Frigga (Rene Russo) is killed protecting Jane. Odin wants to keep Jane on Asgard so that Malekith will come. Thor disagrees with his plan, so with his cohorts, he decides to take Jane away. He enlists the aid of his brother, Loki (Tom Hiddleston). Unfortunately, Loki's motivations remain unknown.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935660/mcu/movies/Thor_he_Dark_World_ewnguy.jpg",
-    trailer_url: "https://example.com/thor-the-dark-world-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/npvJ9FTgZbM",
     directed_by: "Alan Taylor",
     phase: 2,
     saga: "Infinity Saga",
@@ -169,7 +172,7 @@ export const moviesdata = [
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935660/mcu/movies/The_Winter_Soldier_byhjgp.jpg",
     trailer_url:
-      "https://example.com/captain-america-the-winter-soldier-trailer.mp4",
+      "https://www.youtube.com/embed/tbayiPxkUMM",
     directed_by: "Anthony Russo, Joe Russo",
     phase: 2,
     saga: "Infinity Saga",
@@ -187,7 +190,7 @@ export const moviesdata = [
       "After stealing a mysterious orb in the far reaches of outer space, Peter Quill from Earth is now the main target of a manhunt led by the villain known as Ronan the Accuser. To help fight Ronan and his team and save the galaxy from his power, Quill creates a team of space heroes known as the 'Guardians of the Galaxy' to save the galaxy.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935659/mcu/movies/Guardians_of_the_Galaxy_m1tf3l.jpg",
-    trailer_url: "https://example.com/guardians-of-the-galaxy-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/d96cjJhvlMA",
     directed_by: "James Gunn",
     phase: 2,
     saga: "Infinity Saga",
@@ -206,7 +209,7 @@ export const moviesdata = [
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935659/mcu/movies/Guardians_of_the_Galaxy_Vol._2_pa2umi.jpg",
     trailer_url:
-      "https://example.com/guardians-of-the-galaxy-vol-2-trailer.mp4",
+      "https://www.youtube.com/embed/dW1BIid8Osg",
     directed_by: "James Gunn",
     phase: 3,
     saga: "Infinity Saga",
@@ -224,7 +227,7 @@ export const moviesdata = [
       "Tony Stark creates the Ultron Program to protect the world, but when the peacekeeping program becomes hostile, The Avengers go into action to try and defeat a virtually impossible enemy together. Earth's mightiest heroes must come together once again to protect the world from global extinction.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935657/mcu/movies/Avengers.Age_of_Ultron_lpsdpz.jpg",
-    trailer_url: "https://example.com/avengers-age-of-ultron-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/tmeOjFno6Do",
     directed_by: "Joss Whedon",
     phase: 2,
     saga: "Infinity Saga",
@@ -242,7 +245,7 @@ export const moviesdata = [
       "Armed with the astonishing ability to shrink in scale but increase in strength, con-man Scott Lang must embrace his inner-hero and help his mentor, Dr. Hank Pym, protect the secret behind his spectacular Ant-Man suit from a new generation of towering threats. Against seemingly insurmountable obstacles, Pym and Lang must plan and pull off a heist that will save the world.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935657/mcu/movies/Ant-Man_and_the_Wasp_fjzvyo.jpg",
-    trailer_url: "https://example.com/ant-man-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/pWdKf3MneyI",
     directed_by: "Peyton Reed",
     phase: 2,
     saga: "Infinity Saga",
@@ -260,7 +263,7 @@ export const moviesdata = [
       "With many people fearing the actions of super heroes, the government decides to push for the Hero Registration Act, a law that limits a hero's actions. This results in a division in The Avengers. Iron Man stands with this Act, claiming that their actions must be kept in check otherwise cities will continue to be destroyed, but Captain America feels that saving the world is daring enough and that they cannot rely on the government to protect the world. This escalates into an all-out war between Team Iron Man (Iron Man, Black Panther, Vision, Black Widow, War Machine, and Spider-Man) and Team Captain America (Captain America, Bucky Barnes, Falcon, Scarlet Witch, Hawkeye, and Ant Man) while a new villain emerges.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935658/mcu/movies/civil_war_t8dmtg.jpg",
-    trailer_url: "https://example.com/captain-america-civil-war-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/dKrVegVI0Us",
     directed_by: "Anthony Russo, Joe Russo",
     phase: 3,
     saga: "Infinity Saga",
@@ -278,7 +281,7 @@ export const moviesdata = [
       "Set between the events of Captain America: Civil War and Avengers: Infinity War, Natasha Romanoff confronts her past and deals with dangerous conspiracies tied to her history as a spy and the Red Room.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935658/mcu/movies/Black_Widow_i6p9m2.jpg",
-    trailer_url: "https://example.com/black-widow-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/Fp9pNPdNwjI",
     directed_by: "Cate Shortland",
     phase: 4,
     saga: "Infinity Saga",
@@ -296,7 +299,7 @@ export const moviesdata = [
       "After the events of Captain America: Civil War, Prince T'Challa returns home to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new king. However, T'Challa soon finds that he is challenged for the throne from factions within his own country. When two foes conspire to destroy Wakanda, the hero known as Black Panther must team up with C.I.A. agent Everett K. Ross and members of the Dora Milaje, Wakandan special forces, to prevent Wakanda from being dragged into a world war.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935658/mcu/movies/Black_Panther_z4ijre.jpg",
-    trailer_url: "{{TRAILER_URL_PLACEHOLDER}}",
+    trailer_url: "https://www.youtube.com/embed/xjDjIWPwcPU",
     directed_by: "Ryan Coogler",
     phase: 3,
     saga: "Infinity Saga",
@@ -314,7 +317,7 @@ export const moviesdata = [
       "Following the events of Captain America: Civil War, Peter Parker, with the help of his mentor Tony Stark, tries to balance his life as an ordinary high school student in Queens, New York City, while fighting crime as his superhero alter ego Spider-Man. When a new threat emerges, Peter must navigate his newfound identity and prove himself as the friendly neighborhood superhero.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935660/mcu/movies/Spider-Man-Homecoming_np35bc.jpg",
-    trailer_url: "https://example.com/spiderman-homecoming-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/n9DwoQ7HWvI",
     directed_by: "Jon Watts",
     phase: 3,
     saga: "Infinity Saga",
@@ -332,7 +335,7 @@ export const moviesdata = [
       "Dr. Stephen Strange, a brilliant but arrogant neurosurgeon, gets involved in a car accident that damages his hands. Desperate to regain his former skills, Strange travels to Nepal, where he encounters the Ancient One. Under her tutelage, Strange learns the mystic arts and becomes the Sorcerer Supreme, tasked with defending the world against mystical threats. As he battles a former ally who has turned to darkness, Strange must harness his newfound powers to save the world.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935658/mcu/movies/Doctor_Strange_icdbsi.jpg",
-    trailer_url: "https://example.com/doctor-strange-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/Lt-U_t2pUHI",
     directed_by: "Scott Derrickson",
     phase: 3,
     saga: "Infinity Saga",
@@ -350,7 +353,7 @@ export const moviesdata = [
       "Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarok, the destruction of his home world, at the hands of the ruthless Hela.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935661/mcu/movies/Thor-Ragnarok_glei5x.jpg",
-    trailer_url: "https://example.com/thor-ragnarok-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/ue80QwXMRHg",
     directed_by: "Taika Waititi",
     phase: 3,
     saga: "Infinity Saga",
@@ -368,7 +371,7 @@ export const moviesdata = [
       "Scott Lang grapples with the consequences of his choices as both a superhero and a father. As he struggles to rebalance his life with his responsibilities as Ant-Man, he's confronted by Hope van Dyne and Dr. Hank Pym with an urgent new mission.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935657/mcu/movies/Ant-Man_and_the_Wasp_fjzvyo.jpg",
-    trailer_url: "https://example.com/ant-man-wasp-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/UUkn-enk2RU",
     directed_by: "Peyton Reed",
     phase: 3,
     saga: "Infinity Saga",
@@ -386,7 +389,7 @@ export const moviesdata = [
       "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935657/mcu/movies/Avengers-Infinity_War_pepoxz.jpg",
-    trailer_url: "https://example.com/infinity-war-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/6ZfuNTqbHE8",
     directed_by: "Anthony Russo, Joe Russo",
     phase: 3,
     saga: "Infinity Saga",
@@ -404,7 +407,7 @@ export const moviesdata = [
       "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to undo Thanos' actions and restore order to the universe.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935657/mcu/movies/Avengers-Endgame_hi3rgf.jpg",
-    trailer_url: "https://example.com/endgame-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/TcMBFSGVi1c",
     directed_by: "Anthony Russo, Joe Russo",
     phase: 3,
     saga: "Infinity Saga",
@@ -422,7 +425,7 @@ export const moviesdata = [
       "Following the events of Avengers: Endgame, Spider-Man must step up to take on new threats in a world that has changed forever. With a school trip to Europe, Peter Parker faces the responsibility of being a hero while trying to enjoy a vacation.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935659/mcu/movies/Spider-Man-Far_From_Home_dcghlo.jpg",
-    trailer_url: "https://example.com/spiderman-far-from-home-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/Nt9L1jCKGnE",
     directed_by: "Jon Watts",
     phase: 3,
     saga: "Infinity Saga",
@@ -440,7 +443,7 @@ export const moviesdata = [
       "Shang-Chi, the master of unarmed weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization's mysterious plans.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935659/mcu/movies/Shang-Chi_and_the_Legend_of_the_Ten_Rings_bjkaih.jpg",
-    trailer_url: "https://example.com/shang-chi-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/8YjFbMbfXaQ",
     directed_by: "Destin Daniel Cretton",
     phase: 4,
     saga: "Infinity Saga",
@@ -458,7 +461,7 @@ export const moviesdata = [
       "The Eternals, a race of immortal beings with superhuman powers, reunite to protect Earth from their ancient enemies, the Deviants.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935658/mcu/movies/Eternals_d5s4ag.jpg",
-    trailer_url: "https://example.com/eternals-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/x_me3xsvDgk",
     directed_by: "Chloé Zhao",
     phase: 4,
     saga: "Infinity Saga",
@@ -476,7 +479,7 @@ export const moviesdata = [
       "Peter Parker's world turns upside down when his identity as Spider-Man is revealed, and he seeks help from Doctor Strange to undo the damage while facing multiversal threats.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935660/mcu/movies/Spider-Man-No_Way_Home_lawlvk.jpg",
-    trailer_url: "https://example.com/spider-man-no-way-home-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/JfVOs4VSpmA?start=82",
     directed_by: "Jon Watts",
     phase: 4,
     saga: "Infinity Saga",
@@ -495,7 +498,7 @@ export const moviesdata = [
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935658/mcu/movies/Doctor_Strange_in_the_Multiverse_of_Madness_xdlzjd.jpg",
     trailer_url:
-      "https://example.com/doctor-strange-multiverse-madness-trailer.mp4",
+      "https://www.youtube.com/embed/aWzlQ2N6qqg",
     directed_by: "Sam Raimi",
     phase: 4,
     saga: "Infinity Saga",
@@ -513,7 +516,7 @@ export const moviesdata = [
       "Thor faces a new threat as he reunites with Jane Foster and battles the mighty villain Gorr the God Butcher.",
     cover_url:
       "https://res.cloudinary.com/dmoxe7abt/image/upload/v1684935660/mcu/movies/Thor-_Love_and_Thunder_q36f8j.jpg",
-    trailer_url: "https://example.com/thor-love-and-thunder-trailer.mp4",
+    trailer_url: "https://www.youtube.com/embed/Go8nTmfrQd8",
     directed_by: "Taika Waititi",
     phase: 4,
     saga: "Infinity Saga",

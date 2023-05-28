@@ -1,6 +1,7 @@
 import React from "react";
 import { moviesdata } from "../Moviesdata";
 import { useParams } from "react-router-dom";
+import Navbar from "../Navbar";
 
 const MovieDetails = () => {
   const { chronology } = useParams();
@@ -24,35 +25,60 @@ const MovieDetails = () => {
     release_order,
     post_credit_scenes,
     saga,
+    trailer_url,
   } = movielink;
 
   return (
-    <div>
-      <div className="container mt-10 text-white">
-        <div className="flex justify-center">
-          <img
-            className="h-auto max-w-full object-cover"
-            src={cover_url}
-            alt={title}
-          />
-        </div>
-        <div className="mt-5 text-center">
-          <h1 className="text-3xl font-bold">{title}</h1>
-          <p className="text-gray-500">{release_date}</p>
-        </div>
+    <div className="mb-10">
+      <Navbar />
+      <div className="mx-auto max-w-[1024px] p-10 pt-[100px]">
         <div>
-          <p>Duration: {duration}&nbsp;minutes</p>
-          <p>Director: {directed_by}</p>
-          <p>Box Office:&nbsp;&nbsp; $ {box_office} billion </p>
-          <p>chronology:&nbsp;{chronology}</p>
-          <p>Release order: &nbsp;{release_order}</p>
-          <p>Phase:&nbsp;{phase}</p>
-          <p>Saga:&nbsp;{saga}</p>
-          <p>Post credit scenes:&nbsp;{post_credit_scenes}</p>
+          <h1 className="p-4 text-center text-2xl font-bold text-white md:text-3xl">
+            {title}
+          </h1>
         </div>
-        <div className="mt-5">
-          <p>{overview}</p>
+        <div className="container mx-auto mt-10 flex max-w-[] flex-col justify-start text-white md:flex-row md:gap-20">
+          <div className="mx-auto h-[300px] w-[200px] sm:h-[500px] sm:w-[300px] md:mx-0">
+            <img
+              className="h-auto max-w-full border-4 border-gray-500 object-cover"
+              src={cover_url}
+              alt={title}
+            />
+          </div>
+          <div className="mx-auto flex flex-col md:mx-0">
+            <p className="p-3">Release Date{release_date}</p>
+            <p className="p-3">Duration: {duration}&nbsp;minutes</p>
+            <p className="p-3">Director: {directed_by}</p>
+            <p className="p-3">
+              Box Office:&nbsp;&nbsp; $ {box_office} billion{" "}
+            </p>
+            <p className="p-3">chronology:&nbsp;{chronology}</p>
+            <p className="p-3">Release order: &nbsp;{release_order}</p>
+            <p className="p-3">Phase:&nbsp;{phase}</p>
+            <p className="p-3">Saga:&nbsp;{saga}</p>
+            <p className="p-3">Post credit scenes:&nbsp;{post_credit_scenes}</p>
+          </div>
         </div>
+        <div className="container mx-auto mt-5 md:mx-0 md:max-w-[800px]">
+          <p className=" text-white md:p-5 md:pl-0">{overview}</p>
+        </div>
+      </div>
+      <div className="md:p-10 lg:mx-auto lg:max-w-[1024px]">
+        <p className="px-10 py-2 text-2xl text-white">Trailer</p>
+        {trailer_url && (
+          <div className="container mx-auto mt-5 p-1">
+            <iframe
+              className="mx-auto border-4 border-brand sm:h-[auto] sm:w-[350px] md:mx-0 md:h-[315px] md:w-[560px]"
+              width="200"
+              height="150"
+              src={movielink.trailer_url}
+              title="YouTube Video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+              allowFullScreen
+            ></iframe>
+          </div>
+        )}
       </div>
     </div>
   );
