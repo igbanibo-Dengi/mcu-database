@@ -1,7 +1,7 @@
 
 
 
-const mcuTvShows = [
+export const seriesdata = [
   {
     id: 1,
     title: "Agent Carter",
@@ -9,9 +9,9 @@ const mcuTvShows = [
     last_aired_date: "March 1, 2016",
     number_of_seasons: 2,
     overview: "Agent Carter follows the story of Peggy Carter, an agent of the Strategic Scientific Reserve (SSR), as she balances administrative work and secret missions while trying to navigate post-World War II America.",
-    cover_url: "https://example.com/agent-carter-cover.jpg",
+    cover_url: "https://res.cloudinary.com/dmoxe7abt/image/upload/v1685315439/mcu/tv_shows/Agent_Carter_vtx4lz.jpg",
     trailer_url: "https://example.com/agent-carter-trailer.mp4",
-    directed_by: "Various Directors"
+    network: "ABC",
   },
   {
     id: 2,
@@ -20,9 +20,9 @@ const mcuTvShows = [
     last_aired_date: "August 12, 2020",
     number_of_seasons: 7,
     overview: "Agents of S.H.I.E.L.D. follows the story of a team of S.H.I.E.L.D. agents led by Phil Coulson as they investigate and handle strange cases and threats to humanity.",
-    cover_url: "https://example.com/agents-of-shield-cover.jpg",
+    cover_url: "https://res.cloudinary.com/dmoxe7abt/image/upload/v1685315439/mcu/tv_shows/Agents_of_S.H.I.E.L.D._o2tm0z.jpg",
     trailer_url: "https://example.com/agents-of-shield-trailer.mp4",
-    directed_by: "Various Directors"
+    network: "ABC",
   },
   {
     id: 3,
@@ -31,9 +31,9 @@ const mcuTvShows = [
     last_aired_date: "October 19, 2018",
     number_of_seasons: 3,
     overview: "Daredevil tells the story of Matt Murdock, a blind lawyer by day and a vigilante crime-fighter with heightened senses by night, as he fights against corruption and crime in Hell's Kitchen, New York City.",
-    cover_url: "https://example.com/daredevil-cover.jpg",
+    cover_url: "https://res.cloudinary.com/dmoxe7abt/image/upload/v1685315439/mcu/tv_shows/Daredevil_ztnzf9.jpg",
     trailer_url: "https://example.com/daredevil-trailer.mp4",
-    directed_by: "Various Directors"
+    network: "Netflix",
   },
   {
     id: 4,
@@ -42,9 +42,9 @@ const mcuTvShows = [
     last_aired_date: "June 14, 2019",
     number_of_seasons: 3,
     overview: "Jessica Jones follows the story of the titular character, a former superhero turned private investigator, as she deals with her own personal demons and takes on cases involving people with extraordinary abilities in New York City.",
-    cover_url: "https://example.com/jessica-jones-cover.jpg",
+    cover_url: "https://res.cloudinary.com/dmoxe7abt/image/upload/v1685315440/mcu/tv_shows/Jessica_Jones_ptphyh.jpg",
     trailer_url: "https://example.com/jessica-jones-trailer.mp4",
-    directed_by: "Various Directors"
+    network: "Netflix",
   },
   {
     id: 5,
@@ -53,9 +53,9 @@ const mcuTvShows = [
     last_aired_date: "June 22, 2018",
     number_of_seasons: 2,
     overview: "Luke Cage tells the story of Carl Lucas, a former convict with superhuman strength and unbreakable skin, as he fights crime and corruption in Harlem, New York City.",
-    cover_url: "https://example.com/luke-cage-cover.jpg",
+    cover_url: "https://res.cloudinary.com/dmoxe7abt/image/upload/v1685315440/mcu/tv_shows/Luke_Cage_cwj23z.jpg",
     trailer_url: "https://example.com/luke-cage-trailer.mp4",
-    directed_by: "Various Directors"
+    network: "Netflix",
   },
   {
     id: 6,
@@ -64,9 +64,9 @@ const mcuTvShows = [
     last_aired_date: "September 7, 2018",
     number_of_seasons: 2,
     overview: "Iron Fist follows the story of Danny Rand, a martial arts expert with the ability to call upon the power of the Iron Fist, as he returns to New York City to reclaim his family's company from corrupt forces.",
-    cover_url: "https://example.com/iron-fist-cover.jpg",
+    cover_url: "https://res.cloudinary.com/dmoxe7abt/image/upload/v1685315440/mcu/tv_shows/Iron_Fist_pcthpg.jpg",
     trailer_url: "https://example.com/iron-fist-trailer.mp4",
-    directed_by: "Various Directors"
+    network: "Netflix",
   },
   {
     id: 7,
@@ -75,9 +75,9 @@ const mcuTvShows = [
     last_aired_date: "August 18, 2017",
     number_of_seasons: 1,
     overview: "The Defenders brings together Daredevil, Jessica Jones, Luke Cage, and Iron Fist as they join forces to save New York City from a common enemy known as The Hand.",
-    cover_url: "https://example.com/the-defenders-cover.jpg",
+    cover_url: "https://res.cloudinary.com/dmoxe7abt/image/upload/v1685315441/mcu/tv_shows/The_Defenders_kfgt7s.jpg",
     trailer_url: "https://example.com/the-defenders-trailer.mp4",
-    directed_by: "Various Directors"
+    network: "Netflix",
   },
   {
     id: 8,
@@ -86,9 +86,9 @@ const mcuTvShows = [
     last_aired_date: "January 18, 2019",
     number_of_seasons: 2,
     overview: "The Punisher follows the story of Frank Castle, a former Marine turned vigilante, as he seeks revenge against those responsible for the murder of his family while uncovering a deeper conspiracy.",
-    cover_url: "https://example.com/the-punisher-cover.jpg",
+    cover_url: "https://res.cloudinary.com/dmoxe7abt/image/upload/v1685315441/mcu/tv_shows/The_Punisher_axf7wn.jpg",
     trailer_url: "https://example.com/the-punisher-trailer.mp4",
-    directed_by: "Various Directors"
+    network: "Netflix",
   },
   {
     id: 9,
@@ -97,9 +97,9 @@ const mcuTvShows = [
     last_aired_date: "December 13, 2019",
     number_of_seasons: 3,
     overview: "Runaways follows a group of teenagers who discover that their parents are part of a criminal organization known as The Pride, and they must band together to stop their parents and save the world.",
-    cover_url: "https://example.com/runaways-cover.jpg",
+    cover_url: "https://res.cloudinary.com/dmoxe7abt/image/upload/v1685315440/mcu/tv_shows/Runaways_rzmdx4.jpg",
     trailer_url: "https://example.com/runaways-trailer.mp4",
-    directed_by: "Various Directors"
+    network: 'Hulu',
   },
   {
     id: 10,
@@ -108,9 +108,9 @@ const mcuTvShows = [
     last_aired_date: "May 30, 2019",
     number_of_seasons: 2,
     overview: "Cloak & Dagger follows the story of Tandy Bowen and Tyrone Johnson, two teenagers from different backgrounds who develop superpowers and form a romantic relationship while dealing with the challenges of their abilities.",
-    cover_url: "https://example.com/cloak-and-dagger-cover.jpg",
+    cover_url: "https://res.cloudinary.com/dmoxe7abt/image/upload/v1685315439/mcu/tv_shows/Cloak_Dagger_wzmahf.jpg",
     trailer_url: "https://example.com/cloak-and-dagger-trailer.mp4",
-    directed_by: "Various Directors"
+    network: "Freeform",
   },
   {
     id: 11,
@@ -119,9 +119,9 @@ const mcuTvShows = [
     last_aired_date: "March 5, 2021",
     number_of_seasons: 1,
     overview: "WandaVision follows the story of Wanda Maximoff and Vision, as they live idealized suburban lives that begin to unravel, blending classic sitcoms with the Marvel Cinematic Universe.",
-    cover_url: "https://example.com/wandavision-cover.jpg",
+    cover_url: "https://res.cloudinary.com/dmoxe7abt/image/upload/v1685315441/mcu/tv_shows/WandaVision_q2qklh.jpg",
     trailer_url: "https://example.com/wandavision-trailer.mp4",
-    directed_by: "Various Directors"
+    network: "Disney+",
   },
   {
     id: 12,
@@ -130,9 +130,9 @@ const mcuTvShows = [
     last_aired_date: "April 23, 2021",
     number_of_seasons: 1,
     overview: "The Falcon and the Winter Soldier follows the story of Sam Wilson and Bucky Barnes as they team up in a global adventure that tests their abilities and their patience.",
-    cover_url: "https://example.com/falcon-winter-soldier-cover.jpg",
+    cover_url: "https://res.cloudinary.com/dmoxe7abt/image/upload/v1685315441/mcu/tv_shows/The_Falcon_and_the_Winter_Soldier_z8ipoh.jpg",
     trailer_url: "https://example.com/falcon-winter-soldier-trailer.mp4",
-    directed_by: "Various Directors"
+    network: "Disney+",
   },
   {
     id: 13,
@@ -141,9 +141,9 @@ const mcuTvShows = [
     last_aired_date: "July 14, 2021",
     number_of_seasons: 1,
     overview: "Loki follows the story of the God of Mischief as he steps out of his brother's shadow and embarks on a journey through time and space.",
-    cover_url: "https://example.com/loki-cover.jpg",
+    cover_url: "https://res.cloudinary.com/dmoxe7abt/image/upload/v1685315440/mcu/tv_shows/Loki_st5pv9.jpg",
     trailer_url: "https://example.com/loki-trailer.mp4",
-    directed_by: "Various Directors"
+    network: "Disney+",
   },
   {
     id: 14,
@@ -152,20 +152,20 @@ const mcuTvShows = [
     last_aired_date: "December 22, 2021",
     number_of_seasons: 1,
     overview: "Hawkeye follows the story of Clint Barton as he passes the mantle of Hawkeye to a young archer named Kate Bishop, and they both embark on an adventure in New York City during the holiday season.",
-    cover_url: "https://example.com/hawkeye-cover.jpg",
+    cover_url: "https://res.cloudinary.com/dmoxe7abt/image/upload/v1685315439/mcu/tv_shows/Hawkeye_wknx3d.jpg",
     trailer_url: "https://example.com/hawkeye-trailer.mp4",
-    directed_by: "Various Directors"
+    network: "Disney+",
   },
   {
-    id: 18,
+    id: 15,
     title: "She-Hulk: Attorney at Law",
     release_date: "2022-09-01",
     last_aired_date: "2022-10-20",
     overview: "Jennifer Walters, a lawyer and cousin of Bruce Banner, gains her own Hulk powers after receiving a blood transfusion from him. Balancing her career as an attorney and her superhero alter ego, She-Hulk defends the rights of both humans and superhumans alike.",
     number_of_seasons: 1,
-    cover_url: "https://example.com/she-hulk-cover.jpg",
+    cover_url: "https://res.cloudinary.com/dmoxe7abt/image/upload/v1685315441/mcu/tv_shows/She-Hulk_qhrsl7.jpg",
     trailer_url: "https://example.com/she-hulk-trailer.mp4",
-    directed_by: "Creator 2"
+    network: "Disney+"
   },
   {
     id: 16,
@@ -174,9 +174,9 @@ const mcuTvShows = [
     last_aired_date: "2022-05-13",
     overview: "Moon Knight, a vigilante suffering from dissociative identity disorder, struggles with his fractured mind while combating crime in New York City.",
     number_of_seasons: 1,
-    cover_url: "https://example.com/moon-knight-cover.jpg",
+    cover_url: "https://res.cloudinary.com/dmoxe7abt/image/upload/v1685315440/mcu/tv_shows/Moon_Knight_mk3gmd.jpg",
     trailer_url: "https://example.com/moon-knight-trailer.mp4",
-    directed_by: "Director 6"
+    network: "Disney+"
   },
   {
     id: 17,
@@ -185,9 +185,9 @@ const mcuTvShows = [
     last_aired_date: "2022-08-12",
     overview: "Kamala Khan, a Pakistani-American teenager with shape-shifting abilities, discovers her powers and becomes the superhero Ms. Marvel, using her abilities to protect her community.",
     number_of_seasons: 1,
-    cover_url: "https://example.com/ms-marvel-cover.jpg",
+    cover_url: "https://res.cloudinary.com/dmoxe7abt/image/upload/v1685315440/mcu/tv_shows/Ms._Marvel_mvcypk.jpg",
     trailer_url: "https://example.com/ms-marvel-trailer.mp4",
-    directed_by: "Director 7"
+    network: "Disney+"
   },
   {
     id: 18,
@@ -196,9 +196,9 @@ const mcuTvShows = [
     last_aired_date: "2021-10-06",
     overview: "What If...? explores alternate realities in the Marvel Cinematic Universe, featuring different heroes taking on unique roles and facing unexpected challenges. The animated anthology series presents intriguing and imaginative stories that question what could have happened if key events unfolded differently.",
     number_of_seasons: 1,
-    cover_url: "https://example.com/what-if-cover.jpg",
+    cover_url: "https://res.cloudinary.com/dmoxe7abt/image/upload/v1685315441/mcu/tv_shows/What_If_fjuull.jpg",
     trailer_url: "https://example.com/what-if-trailer.mp4",
-    created_by: "Creator 3"
+    network: "Disney+",
   },
   {
     id: 19,
@@ -207,9 +207,9 @@ const mcuTvShows = [
     last_aired_date: "2017-11-10",
     overview: "Inhumans follows the story of the Inhuman royal family, led by Black Bolt, as they escape to Hawaii after a military coup on their home planet. Struggling to maintain their identity and protect themselves from outside threats, the Inhumans must navigate the complexities of the human world while also dealing with internal conflicts and power struggles.",
     number_of_seasons: 1,
-    cover_url: "https://example.com/inhumans-cover.jpg",
+    cover_url: "https://res.cloudinary.com/dmoxe7abt/image/upload/v1685315440/mcu/tv_shows/Inhumans_ns1jir.jpg",
     trailer_url: "https://example.com/inhumans-trailer.mp4",
-    created_by: "Creator 4"
+    network: "ABC"
   }
 ];
 

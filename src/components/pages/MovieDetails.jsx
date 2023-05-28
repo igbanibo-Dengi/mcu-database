@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { moviesdata } from "../Moviesdata";
 import { useParams } from "react-router-dom";
 import Navbar from "../Navbar";
@@ -8,6 +8,10 @@ const MovieDetails = () => {
   const movielink = moviesdata.find(
     (item) => item.chronology === parseInt(chronology)
   );
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top when the component loads
+  }, []);
 
   if (!movielink) {
     return <div className="text-white">Movie not found</div>;
@@ -37,7 +41,7 @@ const MovieDetails = () => {
             {title}
           </h1>
         </div>
-        <div className="container mx-auto mt-10 flex max-w-[] flex-col justify-start text-white md:flex-row md:gap-20">
+        <div className="container mx-auto mt-5 flex max-w-[] flex-col justify-start text-white md:flex-row md:gap-20">
           <div className="mx-auto h-[300px] w-[200px] sm:h-[500px] sm:w-[300px] md:mx-0">
             <img
               className="h-auto max-w-full border-4 border-gray-500 object-cover"
