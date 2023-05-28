@@ -20,7 +20,7 @@ export const moviesdata = [
     chronology: 2,
     title: "Captain Marvel",
     release_date: "March 8, 2019",
-    box_office: 1128274794,
+    box_office: "1,128,274,794",
     duration: 124,
     overview:
       "After crashing an experimental aircraft, Air Force pilot Carol Danvers is discovered by the Kree and trained as a member of the elite Starforce Military under the command of her mentor Yon-Rogg. Six years later, after escaping to Earth while under attack by the Skrulls, Danvers begins to discover there's more to her past. With help from S.H.I.E.L.D. agent Nick Fury, they set out to unravel the truth.",

@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineSearch } from "react-icons/ai";
 import { moviesdata } from "./Moviesdata";
-import { Link, Routes, Route } from "react-router-dom";
-import MovieDetails from "./pages/MovieDetails";
+import { Link } from "react-router-dom";
 
 const Movies = () => {
   const [search, setSearch] = useState("");
@@ -93,12 +92,12 @@ const Movies = () => {
       </div>
       {/* ============movies grid container */}
       <div className="items-center justify-center px-10">
-        <Routes>
+        {/* <Routes>
           <Route
             path="/movies/:chronology"
             element={<MovieDetails movies={moviesdata} />}
           />
-        </Routes>
+        </Routes> */}
 
         <div className="grid grid-cols-2 gap-x-5 gap-y-10 md:grid-cols-3 md:gap-x-10 md:gap-y-20 lg:grid-cols-5">
           {filteredMovies
