@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { AiOutlineSearch } from "react-icons/ai";
 import { moviesdata } from "./Moviesdata";
 import { Link } from "react-router-dom";
@@ -6,6 +6,10 @@ import { Link } from "react-router-dom";
 const Movies = () => {
   const [search, setSearch] = useState("");
   const [selectedPhase, setSelectedPhase] = useState(null);
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top when the component loads
+  }, []);
 
   const handleFilter = (phase) => {
     setSelectedPhase(phase);

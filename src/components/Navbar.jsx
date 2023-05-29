@@ -10,12 +10,12 @@ const Navbar = () => {
         </h1>
         <ul className="flex justify-between gap-3">
           <li className="w-max">
-            <a
-              href="#movies"
+            <Link
+              to="/"
               className="w-fit cursor-pointer rounded border border-brand p-1 text-[14px] transition-all hover:border-brand hover:text-brand md:p-2 md:font-bold"
             >
               Movies
-            </a>
+            </Link>
           </li>
           <li className="w-max">
             <Link

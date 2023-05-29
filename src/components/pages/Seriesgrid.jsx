@@ -32,7 +32,7 @@ const Seriesgrid = () => {
       </div>
       {/* ==========flter buttons */}
       <p className="mt-2 text-center text-[14px] text-white">
-        Movies are arranged in chronological order
+        Series are arranged in chronological order
       </p>
       <div className="mx-auto flex max-w-[400px]  flex-wrap justify-around gap-y-3 p-7 md:mb-5 md:max-w-[800px] md:gap-x-3">
         <button
@@ -69,7 +69,7 @@ const Seriesgrid = () => {
           } filter-btn rounded border p-1 text-[14px] text-white transition-[400ms] md:w-[100px] md:px-2 md:py-2 xl:hover:scale-110`}
           type="button"
         >
-          Disney +
+          Disney+
         </button>
         <button
           onClick={() => handleFilter("Hulu")}

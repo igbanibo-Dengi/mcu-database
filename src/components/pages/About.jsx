@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Serieshero from "../Serieshero";
 import { Link } from "react-router-dom";
 import Seriesgrid from "./Seriesgrid";
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to top when the component loads
+  }, []);
+
   return (
     <div>
       <nav className="fixed z-10 w-full">
