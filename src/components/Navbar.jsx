@@ -19,7 +19,7 @@ const Navbar = () => {
           </li>
           <li className="w-max">
             <Link
-              to="./About"
+              to="/About"
               className="w-fit cursor-pointer rounded border border-gray-600 p-1 text-[14px] transition-all hover:border-brand hover:text-brand md:p-2 md:font-bold"
             >
               Tv Shows

@@ -115,7 +115,7 @@ const Movies = () => {
                 key={chronology}
                 className="mx-auto mb-5 max-h-[250px] max-w-[145px]  md:h-[300px] md:w-[200px]"
               >
-                <Link to={`/movies/${chronology}`}>
+                <Link to={`/moviespage/${chronology}`}>
                   <div className="group cursor-pointer items-center justify-center overflow-hidden border-4 border-gray-600 transition-transform duration-500 hover:shadow-xl hover:shadow-black/30 xl:hover:scale-110">
                     <div className="">
                       <img
